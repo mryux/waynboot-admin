@@ -97,7 +97,8 @@ npm config set registry https://registry.npmmirror.com
 npm install
 
 # 启动服务
-npm run dev
+## npm run dev
+npm run dev -- --port 9528
 
 # 管理员账号/密码
 admin/123456
